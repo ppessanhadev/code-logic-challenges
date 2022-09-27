@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test:1": "jest 1.\\ AreaDoCirculo",
+    "test:2": "jest 2.\\ Contagem"
   },
   "keywords": [],
   "author": "",
