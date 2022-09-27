@@ -7,7 +7,7 @@ Esse projeto nasceu com o intuíto de testar e praticar a lógica de programador
 
 1. Inicialmente, para usar você deve clonar este repositório na sua máquina da seguinte forma:
 ```bash
-  git clone https://git.github:ppessanhadev/code-logic-challenges.git
+  git clone git@github.com:ppessanhadev/code-logic-challenges.git
 ```
 2. Ao terminar de clonar, você deve instalar os pacotes, com o seguinte comando
 
