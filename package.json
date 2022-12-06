@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:0": "jest 0.\\ Hello",
-    "test:1": "jest 1.\\ AreaDoCirculo",
-    "test:2": "jest 2.\\ Contagem",
-    "test:3": "jest 3.\\ Fatorial"
+    "test:0": "jest 0-hello",
+    "test:1": "jest 1-area-do-circulo",
+    "test:2": "jest 2-contagem",
+    "test:3": "jest 3-fatorial"
   },
   "keywords": [],
   "author": "",
