@@ -10,6 +10,8 @@ Esse projeto nasceu com o intuíto de testar e praticar a lógica de programador
     - [1. Area do circulo](#desafio-1-area-do-circulo)
     - [2. Contagem](#desafio-2-contagem)
     - [3. Fatorial](#desafio-3-fatorial)
+    - [4. Par ou impar](#desafio-4-par-ou-impar)
+
 ### Como usar?
 
 1. Inicialmente, para usar você deve clonar este repositório na sua máquina da seguinte forma:
@@ -112,11 +114,48 @@ A ideia dessa desafio é realizar um fatorial a partir da entrada e retornar a r
 
 **Dicas de resolução**
 <details>
-<summary>Mostrar</summary>
-
-  - Exemplo de imagem contendo algoritmo parar realizar um fatorial:
-<img src='https://s3.static.brasilescola.uol.com.br/be/2020/09/multiplicacao-fatorial.jpg' />
+  <summary>Mostrar referencia</summary>
 
   - [Estrutura de repetição for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) para realizar iteração para multiplicação.
-  - [Declaração de variável mutavel com **let**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let) 
+  - [Declaração de variável mutavel com **let**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let) para tornar os valores mutáveis, fazendo com que possa ser reatribuído.
+</details>
+
+<details>
+  <summary>Mostrar dica de execução</summary>
+
+  - Exemplo de imagem contendo algoritmo parar realizar um fatorial:
+  <img src='https://s3.static.brasilescola.uol.com.br/be/2020/09/multiplicacao-fatorial.jpg' />
+</details>
+
+
+
+## Desafio 4: Par ou impar
+
+O intuíto desse desafio é receber uma entrada, e, partir dele dizer se o valor é par ou impar
+
+**Regras:**
+ - As entradas só podem ser númericos acima de 0, caso contrario, deve disparar o seguinte erro:
+    - *"Valor inválido, deve inserir uma entrada númerica maior a 0."* (É recomendado copiar a mensagem na validação)
+ - Caso a entrada seja negativo ou 0, mas é númerico, deve disparar o seguinte erro:
+    - *"Valor númerico inferior a 1, deve inserir uma entrada maior que 0."* (É recomendado copiar a mensagem na validação)
+ - Caso a entrada esteja correta, deverá imprimir as seguintes frases:
+    - **Se for par:** `"O número {numero} é par."`
+    - **Se for impar:** `"O número {numero} é impar."`
+    - Onde está `{numero}` é a referencia da variável númerica utilizada
+    - Recomenda-se copiar a frase e alterar apenas o nescessário, visto que o teste é sensivel as letras e a frase
+
+**Dicas de resolução**
+<details>
+  <summary>Mostrar referencias</summary>
+
+  - [Operador módulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) para a checagem de par ou impar.
+  - [Condicionais](https://www.w3schools.com/jsref/jsref_if.asp) para a checagem.
+  - [typeof](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof) para entender o tipo.
+</details>
+
+<details>
+  <summary>Mostrar dica de execução</summary>
+
+  1. Para o funcionamento correto, ele espera que caso dê erro, a aplicação pare e não de continuídade.
+  Para isso, tente retornar um valor vazio apos mandar a mensagem, dentro do próprio escopo da condicional.
 </details>
