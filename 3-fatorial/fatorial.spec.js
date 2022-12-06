@@ -24,12 +24,12 @@ describe('2. Contagem', () => {
   })
 
   it('caso o valor inserido seja um número menor que 0, deverá mostrar o erro na tela', () => {
-    contagem(0);
+    fatorial(-1);
     expect(console.log).toHaveBeenCalledWith(erro);
   })
 
   it('caso o valor inserido seja uma string, deverá mostrar o erro na tela', () => {
-    contagem('teste');
+    fatorial('teste');
     expect(console.log).toHaveBeenCalledWith(erro);
   })
 });
