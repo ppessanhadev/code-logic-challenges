@@ -7,7 +7,8 @@
     "test:0": "jest 0-hello",
     "test:1": "jest 1-area-do-circulo",
     "test:2": "jest 2-contagem",
-    "test:3": "jest 3-fatorial"
+    "test:3": "jest 3-fatorial",
+    "test:4": "jest parImpar"
   },
   "keywords": [],
   "author": "",
