@@ -12,7 +12,7 @@ Esse projeto nasceu com o intuíto de testar e praticar a lógica de programador
     - [3. Fatorial](#desafio-3-fatorial)
     - [4. Par ou impar](#desafio-4-par-ou-impar)
 
-### Como usar?
+## Como usar?
 
 1. Inicialmente, para usar você deve clonar este repositório na sua máquina da seguinte forma:
 ```bash
@@ -48,7 +48,7 @@ $ Hello teste # retorno esperado
 **Apague as modificações e comece do zero para cada desafio, use apenas como rascunho.**
 
 
-### Desafio 0: Hello
+## Desafio 0: Hello
 A ideia dessa desafio é criar um programa ao qual retorne uma mensagem com hello no inicio.
 EX: 'Hello João', 'Hello strogonoff com carne', 'Hello pessoas!'
 
